@@ -11,7 +11,7 @@ public class ClassTest
      */
     @Test
     public void classTest1(){
-        Class.global_var="abc";
+        Class.global_var="xyz";
         r.changeClassVar("xyz");
         Assert.assertEquals(Class.global_var, "xyz");
 
